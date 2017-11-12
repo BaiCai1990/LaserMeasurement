@@ -3,7 +3,7 @@ https://github.com/lionzheng10/LaserMeasurement
 
 The laser measurement project is come from Udacity Nano degree course "self driving car" term2, Lesson5.
 
-##Introduction
+## Introduction
 
 
 Imagine you are in a car equipped with sensors on the outside. The car sensors can detect objects moving around: for example, the sensors might detect a bicycle.
@@ -20,8 +20,11 @@ The Kalman Filter algorithm will go through the following steps:
 ## Kalman filter equation description
 
 Kalman Filter overview
+
 <img src=".\img\Kalman-filter-equation.png" width="450">
+
 2D state motion. State transition matrix, x′ = Fx + v
+
 <img src=".\img\2D_stateTransitionMatrix.png" width="400">
 
 - x is the mean state vector(4x1).For an extended Kalman filter, the mean state vector contains information about the object's position and velocity that you are tracking. It is called the "mean" state vector because position and velocity are represented by a gaussian distribution with mean x.
